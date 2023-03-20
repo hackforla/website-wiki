@@ -19,6 +19,7 @@ The initial installation of MkDocs included the following files:
 ```
 Site is live at [https://hackforla.github.io/website-wiki/](https://hackforla.github.io/website-wiki/)
 
+## Deploying Documents
 [Documents are deployed](https://www.mkdocs.org/user-guide/deploying-your-docs/) in the appropriate subfolder under the `/docs/` folder. The documents are deployed whenever the `ci.yml` action is run.
 
 # Configuration Options  
