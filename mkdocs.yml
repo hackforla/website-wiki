@@ -3,6 +3,38 @@ theme:
   name: material
   features:
     - content.action.edit
+    - content.code.annotate
+    - content.code.copy
+    - navigation.indexes
 repo_url: https://github.com/hackforla/website-wiki
 repo_name: hackforla/website-wiki
 edit_uri: edit/main/docs/
+
+# Plugins
+plugins:
+  - search: {}
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - awesome-pages:
+      filename: .pages
+      collapse_single_pages: false
+      strict: false
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - md_in_html
+  - toc:
+      title: On this page
+      permalink: true
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.betterem
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
