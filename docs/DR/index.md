@@ -1,8 +1,3 @@
----
-tags:
-  - decision records
----
-
 # Decision Records
 
 This wiki page serves as the central hub for all decision records. Decision records help the team keep track of the decisions that have been made, along with the details and rationale behind them.
@@ -11,29 +6,34 @@ Each decision record includes a status label (✅ Adopted or ⛔ Not Implemented
 
 ## Decision Record Workflow
 
-For detailed instructions on creating, updating, or removing decision records, please refer to the [Decision Records Management](decision-records-management.md) guide. It provides step-by-step instructions for developers to manage decision records efficiently and with minimal manual effort.
+For detailed instructions on creating decision records, please refer to the [Decision Records Management](decision-records-management.md) guide.
 
 ### Quick Access to Templates and Instructions
 
 - [Creating a New Adopted Solution Decision Record](decision-records-management.md#adopted-solution)
 - [Creating a New Not Implemented Solution Decision Record](decision-records-management.md#not-implemented-solution)
 
-By using decision records and following the guidelines outlined in this wiki, both volunteers and development leads can effectively track, understand, and contribute to the project's decision-making process.
+- - -
 
-## How to Use Decision Records
+## List of Decision Records
 
-### For Volunteers
+### ✅ Adopted DRs
 
-As a volunteer, you can use decision records to gain insight into the project's history and understand the reasons behind key decisions. Decision records can help you:
+- [Standardize HTML img tag](adopted/standardize-html-img-tag.md)
+- [Explore local machine linters](adopted/explore-local-machine-linters.md)
+- [Hand off issue follow-up by lead](adopted/hand-off-issue-follow-up-by-lead.md)
+- [Hide button on Toolkit page](adopted/hide-button-on-toolkit-page.md)
+- [Link Projects to Project Pages](adopted/link-projects-to-project-pages.md)
+- [Use merge commit for gh-pages updates](adopted/use-merge-commit-for-gh-pages-updates.md)
+- [Google Apps Script Development with CLASP](adopted/google-apps-script-development-with-clasp.md)
+- [Update GHA with Dependabot](adopted/update-gha-with-dependabot.md)
 
-1. Learn about previous decisions and their rationale.
-2. Understand the project's current state and adopted practices.
-3. Identify areas for improvement or potential new solutions.
+### ⛔ Not Implemented DRs
 
-### For Development Leads
-
-As a development lead, decision records serve as a valuable resource for:
-
-1. Onboarding new team members, as they can review previous decisions to get up to speed.
-2. Maintaining a historical record of project decisions, providing context and rationale for future reference.
-3. Evaluating the impact of past decisions and guiding future choices.
+- [Capitalize menu items in nav bar and header](not_implemented/capitalize-menu-items-in-nav-bar-and-header.md)
+- [Receive project updates from PM](not_implemented/receive-project-updates-from-pm.md)
+- [Implement logging system for HfLA GitHub actions](not_implemented/implement-logging-system-for-hfla-github-actions.md)
+- [Maintain Design System webpages](not_implemented/maintain-design-system-webpages.md)
+- [Prevent Liquid Injection attacks in markdown](not_implemented/prevent-liquid-injection-attacks-in-markdown.md)
+- [Fix PR GitHub Actions bug with labels and instructions](not_implemented/fix-pr-github-actions-bug-with-labels-and-instructions.md)
+- [Convert docs to markdown with existing add-on](not_implemented/convert-docs-to-markdown-with-existing-add-on.md)
