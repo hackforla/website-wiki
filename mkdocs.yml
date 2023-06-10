@@ -20,6 +20,9 @@ plugins:
       filename: .pages
       collapse_single_pages: true
       strict: false
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+      enabled: !ENV [CI, false]
 
 # Extensions
 markdown_extensions:

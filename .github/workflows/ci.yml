@@ -7,10 +7,23 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the code from the repository
       - uses: actions/checkout@v3
+
+      # Set up the Python environment
       - uses: actions/setup-python@v4
         with:
           python-version: 3.x
+
+      # Install the required dependencies
       - run: pip install mkdocs-material
       - run: pip install mkdocs-awesome-pages-plugin
+
+      # Build the documentation site
+      - run: mkdocs build --strict
+
+      # Copy the updated mkdocs.yml to the build directory
+      - run: cp mkdocs.yml site/
+
+      # Deploy the documentation site using gh-deploy
       - run: mkdocs gh-deploy --force
