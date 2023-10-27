@@ -27,14 +27,14 @@ When you join the Hack for LA Website Development Team, there are certain expect
 
 ### Communication
 
-- **Announcements**: If you plan to take a week off or go on a longer vacation, notify the tech leadership team. This can be done through a Slack message in the `hfla-site` channel and an @ mention in the comment section of the issue you're working on.
+- **Time Off**: If you plan to take a week off or go on a longer vacation, notify the tech leadership team. This can be done through a Slack message in the `hfla-site` channel and an @ mention in the comment section of the issue you're working on.
 
 ### Meetings
 
 - **Mandatory**: Attend at least one of the following meetings each week:
     - All team weekly meeting (UX/UR, Development, Product) — Sundays 10am-12 noon Pacific Time.
     - Developer (front-end/back-end) weekly team meeting — Tuesdays 7-8 pm Pacific Time.
-- **Optional**: Developer Office Hours meeting — Thursdays 7-8 pm Pacific Time.
+    - Developer Office Hours meeting — Thursdays 7-8 pm Pacific Time.
 
 ### Issue Handling
 
