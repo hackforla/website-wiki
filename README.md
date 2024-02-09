@@ -1,8 +1,10 @@
 # HackforLA.org Wiki
 
-This repository houses the documentation for the Hack for LA website team. The live site is available at [https://hackforla.github.io/website-wiki/](https://hackforla.github.io/website-wiki/). The documentation is built using [MkDocs](https://www.mkdocs.org/) and is styled with the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
+This repository houses the documentation for Hack for LA's website team. The documentation is built using [MkDocs](https://www.mkdocs.org/) and is styled with the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme.
 
-**Note**: Issues related to this wiki are tracked in the [hackforla/website repository](https://github.com/hackforla/website). For more information on the current state of the wiki, please refer to the [How to Contribute to the Wiki](https://github.com/hackforla/website/wiki/How-to-Contribute-to-the-Wiki) page.
+**Note**: Issues related to this wiki are tracked in the [hackforla/website repository](https://github.com/hackforla/website). 
+
+For more information on the current state of the wiki, please refer to the [How to Contribute to the Wiki](https://github.com/hackforla/website/wiki/How-to-Contribute-to-the-Wiki) page.
 
 ---
 
@@ -52,7 +54,6 @@ The easiest way to get your local mkdocs server running and see your changes in 
     docker-compose down
     ```
 
-Your site will now be accessible at <http://localhost:8000>.
 
 ### With Python virtualenv
 
