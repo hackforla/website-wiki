@@ -1,5 +1,5 @@
 ---
-title: Using a forked repo's GitHub pages to view the website
+title: Using a forked repo's GitHub Pages to view the website
 tags:
     - 'decision record'
     - 'not implemented'
