@@ -26,7 +26,7 @@ We have made a decision not to do this for the following reasons:
 
 2. It's quite complicated to follow the instructions and requires the Merge Team to support people who don't understand the instructions, thus increasing the burden on the Merge Team.
 
-3. We had thought we needed it for work on the Wins page's Google Apps Script to test and see the visual changes on the website. However, for testing, a team member can initiate a commit to their own forked repo of the website in Google Apps Script, and then pull down the site from their own forked repo and see it using Docker.
+3. We had thought we needed it for work on the Wins page's Google Apps Script to test and see the visual changes on the website. However, for testing, a team member can initiate a commit to their own forked repo of the website in their copy of the Google Apps Script, and then pull down the site from their own forked repo and see it using Docker.
 
 #### Sources
 
